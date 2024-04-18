@@ -2,7 +2,7 @@ import Link from "next/link";
 import DeleteBlock from "./DeleteBlock";
 import PriorityDisplay from "./PriorityDisplay";
 import ProgressDisplay from "./ProgressDisplay";
-import StatusDisplay from "./statusDisplay";
+import StatusDisplay from "./StatusDisplay";
 
 const TicketCard = ({ ticket }) => {
   function formatTimestamp(timestamp) {
